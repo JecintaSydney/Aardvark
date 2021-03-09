@@ -1,0 +1,17 @@
+#divHeader{
+	grid-area: header;
+}
+
+.leadPara  {
+	grid-area: header;
+	margin: 10px;
+	padding: 10px;
+	grid-area: one;
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-areas:
+	'header';
+
+}
